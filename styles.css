@@ -1,13 +1,31 @@
 *{
     background-color: white;
 }
-.circle{
+.red-circle{
     background-color: red;
     width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    height: 100px;
+    border-radius: 100px 100px 0 0 ;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
+}
+.blue-circle{
+    background-color: blue;
+    width: 200px;
+    height:100px;
+    border-radius: 0 0 100px 100px ;/* Aplica una forma circular solo en la parte inferior */
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+
+.palitos{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -1%;
+    left: 20%;
 }
